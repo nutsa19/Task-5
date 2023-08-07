@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(assets/Inter-VariableFont_slnt\wght.ttf);
+}
+
+a {
+  text-decoration: none;
+  color: #535353;
+}
+
+header h3 {
+  color: #282828;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+header h1 {
+  color: #282828;
+  text-align: center;
+  font-family: Inter;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+  letter-spacing: -1px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+header h2 {
+  color: #5f6980;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+header {
+  margin: 80px 52px 48px 52px;
+}
+
+.container {
+  border: 1px solid #eaecf0;
+  width: 310px;
+  height: 446px;
+  margin-bottom: 48px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+main .desctiption {
+  padding: 16px;
+}
+
+main h2 {
+  color: #282828;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 4px;
+}
+
+main h3 {
+  color: #3e3e59;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+
+main p {
+  color: #5f6980;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 24px;
+}
+
+main a {
+  border-radius: 100px;
+  background: #f2f4f7;
+  display: flex;
+  width: 27px;
+  height: 27px;
+  padding: 9px;
+  justify-content: center;
+  align-items: center;
+}
+
+main .logos {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+main .middle-logo {
+  margin: 0 16px;
+}
+
+footer {
+  height: 223px;
+  width: 1306px;
+  background-color: rgba(83, 83, 83, 0.33);
+  display: flex;
+  padding: 108px 132px 181px 112px;
+  align-items: center;
+}
+
+footer p {
+  margin: 32px 0px 28px 0px;
+  color: #535353;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer .middle-logo {
+  margin: 0 16px;
+}
+
+footer .links {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+footer .link-1 {
+  margin-left: 144.95px;
+}
+footer .link-2 {
+  margin-left: 260px;
+}
+footer .link-3 {
+  margin-left: 255px;
+}
+
+footer h2 {
+  color: #1e1e1e;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 55px;
+}
+footer .language {
+  display: inline-flex;
+  padding: 14px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: #054a68;
+  color: white;
+  margin-bottom: 99.95px;
+}
+
+footer a {
+  color: #535353;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer .middle-link {
+  margin: 35px 0;
+}
